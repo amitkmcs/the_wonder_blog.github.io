@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('     {{ url_for('static',filename='img/amit.jpg') }}    ')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span>Amit Kumar ( India )</span>
+            <hr>
+            <h2 >This is what I do.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Name -  Amit Kumar</p>
+        <p>DOB  -  21-sep-1999 </p>
+        <p>Profession - I'm a Full Stack Web Developer and Programmer </p>
+        <p>Education - B-Tech ( Computer Science and Information Technology ) From IET M.J.P. Rohilkhand University Bareilly </p>
+        <p>Phone - 7754885561 / 7055482155 </p>
+        <p>Email - amitkmcs007@gmail.com / greenuser@rediffmail.com </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+{% endblock %}

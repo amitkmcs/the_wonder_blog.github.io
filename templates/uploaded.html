@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('     {{url_for('static',filename='img/home-bg.jpg') }}     ')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Admin Panel</h1>
+            <span class="subheading">Manage Your Post From Here And Change Them </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<div>
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+<a href="/dashbord" ><button class="btn btn-primary "  >DASHBOARD</button></a>
+
+  <hr>
+<h1 align="center"> Uploaded Successfully </h1>
+  <hr>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{
+  "params":
+  {
+    "local_Server": "True",
+    "local_uri":"mysql://root:@localhost/the_wonder_blog",
+    "prod_uri": "mysql://root:@localhost/the_wonder_blog",
+    "fb_url": "https://www.facebook.com/profile.php?id=100002105500627",
+    "tw_url": "https://twitter.com/veer00712",
+    "gh_url": "https://github.com/amitkmcs",
+    "blog_name":"the_wonder_blog",
+    "blog_tag": "A Wonder Blog Start From Here",
+    "gmail-user": "gogreenveer@gmail.com",
+    "gmail-password": "Varanasi@1",
+    "no_of_posts": 3,
+    "login_image":"logo.jpg",
+    "admin_user": "admin",
+    "admin_password": "password",
+    "upload_location": "C:\\Users\\user\\PycharmProjects\\Web_development_Flask\\static"
+  }
+
+}
